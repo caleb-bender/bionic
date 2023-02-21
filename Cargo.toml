@@ -6,3 +6,8 @@ description = "A machine learning library for Rust"
 license = "MIT"
 
 [dependencies]
+nalgebra = "0.32.1"
+
+[features]
+default = ["glm"]
+glm = []
